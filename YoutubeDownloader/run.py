@@ -12,8 +12,7 @@ root.title("Youtube Downloader")
 root.configure(background='#103783', borderwidth=5)
 
 # Elemente-Variabeln
-v = IntVar()
-urlStatus = StringVar()
+v = IntVar() # save the value of Radiobutton an check up in ShowChoice()
 
 
 def getbegin():

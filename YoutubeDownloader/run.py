@@ -33,8 +33,6 @@ def ShowChoice():
 
 def download():
     yt = y.yytd(getLink(), ShowChoice(), getTitle())
-    print(f"Format: {ShowChoice()}")
-    print(v)
     yt.YoutubeURL()
     exit()
 

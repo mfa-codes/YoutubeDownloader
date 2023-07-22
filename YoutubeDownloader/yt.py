@@ -12,8 +12,6 @@ class yytd:
     def YoutubeURL(self):
         yturl = YouTube(url=self.url)
         titl = yturl.title
-        print(titl)
-        print(self.form)
 
         if self.form == "mp3":
             yt = yturl.streams.filter(only_audio = True).first()
